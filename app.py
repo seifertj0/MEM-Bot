@@ -14,7 +14,7 @@ from langchain_community.document_loaders import TextLoader
 from elevenlabs import play 
 from elevenlabs.client import ElevenLabs 
 
-client = ElevenLabs(api_key="")
+client = ElevenLabs(api_key="sk_69e05a40e930a3789e11351bcfb59d4405eff5547d8ef78d")
 
 
 load_dotenv()
