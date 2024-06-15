@@ -99,7 +99,7 @@ if "chat_history" not in st.session_state:
     
 
 if "vector_store" not in st.session_state:
-    st.session_state.vector_store = get_vectorstore_from_url('txt/Syllabi.txt')    
+    st.session_state.vector_store = get_vectorstore_from_url('Syllabi.txt')    
 
     # user input
 user_query = st.chat_input("Stelle deine Fragen hier‍ 🎓")
