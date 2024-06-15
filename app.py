@@ -14,7 +14,7 @@ from langchain_community.document_loaders import TextLoader
 from elevenlabs import play 
 from elevenlabs.client import ElevenLabs 
 
-#client = ElevenLabs(api_key="")
+client = ElevenLabs(api_key="sk_69e05a40e930a3789e11351bcfb59d4405eff5547d8ef78d")
 
 
 load_dotenv()
@@ -90,12 +90,12 @@ if "chat_history" not in st.session_state:
     ]
     
     # T2S
-    # audio=client.generate(
-    #      text="Hallo ich bin dein persönlicher KI-Studiengangsberater, wie kann ich dir helfen?",
-    #      voice="ArneBanane",
-    #      model="eleven_multilingual_v2"
-    # )
-    # play(audio)
+    audio=client.generate(
+          text="Hallo ich bin dein persönlicher KI-Studiengangsberater, wie kann ich dir helfen?",
+          voice="ArneBanane",
+          model="eleven_multilingual_v2"
+    )
+    play(audio)
     
 
 if "vector_store" not in st.session_state:
@@ -108,12 +108,12 @@ if user_query is not None and user_query != "":
     st.session_state.chat_history.append(HumanMessage(content=user_query))
     st.session_state.chat_history.append(AIMessage(content=response))
     
-    # voice_response=client.generate(
-    #      text=response,
-    #      voice="ArneBanane",
-    #      model="eleven_multilingual_v2"
-    #  )
-    # play(voice_response)
+    voice_response=client.generate(
+          text=response,
+          voice="ArneBanane",
+          model="eleven_multilingual_v2"
+    )
+    play(voice_response)
     
 
 
