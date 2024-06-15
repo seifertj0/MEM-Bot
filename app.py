@@ -20,7 +20,7 @@ load_dotenv()
 
 def get_vectorstore_from_url(url):
     # get the text in document form
-    loader = TextLoader('txt/Syllabi.txt')
+    loader = TextLoader('Syllabi.txt')
     document = loader.load()
     
     # split the document into chunks
@@ -78,8 +78,8 @@ st.title("MEM-Bot 📚")
 
 # sidebar
 with st.sidebar:
-        st.logo("docs/logo.svg")
-        st.sidebar.image("docs/logo.svg", width=100)
+        st.logo("logo.svg")
+        st.sidebar.image("logo.svg", width=100)
         st.header("Hochschule Pforzheim - Master Engineering and Management M. Sc.")
 
     # session state
@@ -97,7 +97,7 @@ if "chat_history" not in st.session_state:
     play(audio)
 
 if "vector_store" not in st.session_state:
-    st.session_state.vector_store = get_vectorstore_from_url('txt/Syllabi.txt')    
+    st.session_state.vector_store = get_vectorstore_from_url('Syllabi.txt')    
 
     # user input
 user_query = st.chat_input("Stelle deine Fragen hier‍ 🎓")
