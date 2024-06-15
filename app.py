@@ -78,8 +78,8 @@ st.title("MEM-Bot 📚")
 
 # sidebar
 with st.sidebar:
-        st.logo("logo.svg")
-        st.sidebar.image("logo.svg", width=100)
+        #st.logo("logo.svg")
+        #st.sidebar.image("logo.svg", width=100)
         st.header("Hochschule Pforzheim - Master Engineering and Management M. Sc.")
 
     # session state
