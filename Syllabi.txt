@@ -1,0 +1,109 @@
+Syllabus for BAE5191 Capstone Seminar
+
+School of Engineering, Fakultät für Technik, Hochschule Pforzheim
+
+The master's level course BAE5191 Capstone Seminar, instructed by Prof. Dr. Raphael Volz and Prof. Dr. Moritz Peter, offers 4 credits and involves 4 contact hours per week, totaling a workload of 120 hours. The prerequisites include the successful completion of all courses in the Master curriculum. Specific times, rooms, and the start date are provided in the online schedule LSF. The instructors' contact details, including office location, office hours, phone number, and email, are available on the homepage.
+
+The Capstone Project is the final project in the Master's programme in Industrial Engineering & Management. Students are expected to work on a complex and company-related task in a project form, considering a variety of perspectives. They will utilize different methods, theories, and tools taught in the Bachelor's and Master's degree programmes to produce concrete results through an interdisciplinary problem-solving approach. The design of the work is independently determined by the students in consultation with the company and the supervising professors. The project concludes with a final presentation and discussion at the company. 
+
+The course topics will be defined with the industry partner, with alternative case studies as a backup. The module contributes to program goals in various fields, enabling students to apply management principles and foster their leadership skills. Students will analyze complex in-company and inter-company problems and challenges from different perspectives, often within an international context. They will improve their ability to use scientific research methods during the project, becoming proficient in project management methods and successfully organizing, conducting, and managing projects. Interdisciplinary knowledge from engineering and management will be applied to develop creative solutions to complex problems and present their results in the final presentation.
+
+The instructors are available to assist throughout the course, offering support and advice. Preferred communication modes include face-to-face communication or email. Attendance at every session is required to receive the credits. Active participation in group work and presentations is evaluated, with 60% of the grade based on active participation and quality of contribution, and 40% based on intermediate and final presentations. The grading scale follows the general part of the SPO, with 'Sehr gut' representing exceptional work, 'Gut' indicating above-average performance, 'Befriedigend' corresponding to average work, 'Ausreichend' signifying below-average work with considerable shortcomings, and 'Mangelhaft' reflecting unacceptable shortcomings.
+
+The course schedule is to be determined after the kick-off meeting with the industry partner or co-lecturer (Volz). Students are expected to read the syllabus, prepare for every lesson, show respect to fellow students, actively contribute to workshops, attend the course punctually, respect different culturally influenced thinking and working styles, be professional in cooperation with an international enterprise, and be flexible, as working in a multinational environment is a challenge for all members.
+
+The teaching philosophy emphasizes supporting students' learning progress. The course design includes various teaching methods such as lectures, new media usage, presentations, student interaction, and simulations to make the course interesting and diversified. Students' comments are welcome as they contribute to the learning progress of the entire class. The instructors aim for students to successfully complete the course, but the essential part of commitment depends on the students. The course material depends on the chosen project, and the language of instruction is English and German, depending on the project.
+
+In summary, the Capstone Seminar aims to apply management principles, analyze complex problems, use scientific research methods, and develop creative solutions through interdisciplinary knowledge. The course requires active participation and commitment from students to successfully complete the final project and presentation.
+
+Neue Datei:
+Syllabus for BAE5160 Managing of Emerging Technologies
+
+School of Engineering, Fakultät für Technik, Hochschule Pforzheim
+
+The master's level course BAE5160 Managing of Emerging Technologies, instructed by Prof. Dr. Bernhard Kölmel and Dr. Michael Krutwig in the Summer Semester of 2024, offers 6 credits and involves 4 contact hours per week, totaling a workload of 180 hours. The course prerequisites include a completed Bachelor's degree. Specific times, rooms, and the start date are provided in the online schedule LSF. Prof. Dr. Bernhard Kölmel's office is located in T2.3.14, and both instructors can be contacted via MS Teams or email at bernhard.koelmel@hs-pforzheim.de and michael@krutwig.com. Office hours are available upon agreement.
+
+The course is designed to introduce students to emerging technologies, combining theoretical knowledge with practical experience through comprehensive project work. An IoT construction kit will be utilized to expose students to various new technologies. The course emphasizes cooperation with regional players, and students will provide scientific project support, culminating in the publication of results at the semester's end.
+
+The course covers additive manufacturing, cloud computing, IoT technology, visualization technologies, use cases, cooperation with administration and companies, scientific work, and project documentation. Students will learn to use new technologies for problem identification, classification, and analysis. They will develop creative solutions to complex in-company and inter-company problems using these technologies. Additionally, students will gain knowledge of research methods relevant to engineering and management, apply these methods effectively, and implement them to deliver innovative results. The course also focuses on interdisciplinary and integrative work, enabling students to provide integrated solutions to complex tasks and evaluate future-oriented technical prototypes using business design methods.
+
+The teaching and learning approach consists of theoretical lectures, reflection and summarization of lecture content, and practical application through workshops and case studies. Active participation in class is crucial. Students can communicate with the instructors for support and advice.
+
+Recommended literature includes works by Schilling, Vong and Song, Schuh and Klappert, Wördenweber, and Meissner et al., along with class handouts available in the LMS. Assessment is based on class contribution, including listening, interaction, presentation of relevant points, analysis, and study of situations.
+
+The grading scale follows the general part of the SPO. 'Sehr gut' represents exceptional work, 'Gut' indicates above-average performance, 'Befriedigend' corresponds to average work, 'Ausreichend' signifies below-average work with shortcomings, and 'Mangelhaft' reflects unacceptable shortcomings.
+
+The course schedule covers industry dynamics of technological innovation, emerging technologies radar, formulating and implementing technological innovation strategies, basics of cloud computing, data analytics, web services, IoT, blockchain, AI, additive manufacturing, group work, and case presentations.
+
+Academic integrity and student responsibility are emphasized, with students encouraged to exchange ideas and consult additional literature. Punctuality, curiosity, independent thinking, and active participation are expected.
+
+The teaching philosophy focuses on strategic and operational management concepts, applying them to real-world situations. Students are supported in developing strategic thinking and evaluating different strategies and management methods. Questions are encouraged during and after lessons to ensure understanding and successful exam preparation.
+
+Neue Datei:
+Syllabus for BAE5151 Financial Management and Control
+
+School of Engineering, Fakultät für Technik, Hochschule Pforzheim
+
+The master's level course BAE5151 Financial Management and Control, taught by Prof. Harald Schnell in the Summer Semester of 2024, is worth 3 credits and involves 2 contact hours per week, with a total workload of 90 hours. The course is conducted in English. Students should have a basic understanding of management accounting, financial control, traditional cost accounting systems, financial accounting, and investment calculation. Course times, rooms, and the start date (Wednesday, 27.03.2024, at 9:45 p.m.) are provided in the online schedule LSF. Prof. Harald Schnell’s office is located in T1.3.28, with virtual office hours available by individual arrangement. He can be contacted at 07231 28-6684 or via email at harald.schnell@hs-pforzheim.de.
+
+The course focuses on how management accountants think and act to achieve financial goals such as growth, profitability, and liquidity. Management accountants use financial instruments to help make optimal management decisions, thus contributing to the effectiveness and efficiency of a company. The course includes a business simulation based on an imaginary company, Robert Wash Ltd, where students, acting as CEOs, learn to allocate economic resources to maximize profit while revising their knowledge in management accounting and cost and financial accounting. Additionally, there will be approximately ten workshop sessions where students present topics and prepare a four-page seminar paper on current topics in management accounting.
+
+Upon completion of the program, students will demonstrate a solid understanding of management principles, apply these principles in an organizational context, and deal with ethical and sustainability challenges in business operations. They will learn to recognize and define problems, analyze complex in-company and inter-company challenges, and apply controlling instruments to solve these problems. The course aims to deepen students' knowledge of management accounting, enabling them to act as advisors to management, contributing to the achievement of corporate goals. The interdisciplinary and integrative approach will help students apply their knowledge to provide integrated solutions to complex tasks, particularly in evaluating the economic viability of technical concepts.
+
+The teaching and learning approach encourages active participation in workshops and discussions, adherence to scientific principles in preparing presentations and seminar papers, and critical reflection on course content using the suggested literature. Students are expected to read newspapers regularly, focusing on economic-relevant information to improve their ability to transfer theoretical knowledge into practice.
+
+The tentative schedule includes sessions on various topics in management accounting, with breaks for the Hilti-Workshop, 1st May, study trips, and the Whitsun break. Students are required to engage with general literature on management accounting, including works by IGC, Krause and Arora, Reichmann, Weber and Schäffer, and Weygandt, Kimmel, and Kieso. Specific, topic-relevant literature should be selected by the students themselves.
+
+Students are encouraged to discuss the course and assignments, but solutions should be individual and original work. If students encounter difficulties with the material, they should ask questions designed to improve understanding rather than seeking to complete the assignment.
+
+Prof. Schnell emphasizes the importance of learning outcomes and encourages students to contact him promptly if they encounter problems or questions. He is committed to helping students succeed, but they must earn their grades through hard work and dedication.
+
+Neue Datei:
+Syllabus for BAE5132 Market-Oriented Product Development
+
+School of Engineering, Fakultät für Technik, Hochschule Pforzheim
+
+The master's level course BAE5132 Market-Oriented Product Development, taught by Prof. Dr.-Ing. Rainer Wunderlich in the summer semester of 2024, is worth 3 credits and includes 2 contact hours per week, with a total workload of 90 hours. Successful completion of the first part of the module, BAE5131 Product Strategy, is a prerequisite. Course times, rooms, and start dates are detailed in the LSF. Prof. Dr.-Ing. Rainer Wunderlich's office is in T1.5.26, with colloquium hours on Wednesdays from 11:30 to 13:00 or immediately after the lecture and by appointment. He can be reached by phone at 07231 28-6677 or preferably via email at rainer.wunderlich@hs-pforzheim.de.
+
+The course aims to develop a refined prototype for the market introduction of a product or service based on the product idea from the previous course, Product Strategy. The prototype will be conceptualized, further developed, and documented, incorporating feedback from the target market to reduce uncertainty and ensure market-oriented development. The course lays the foundation for systematically developing a product idea into a market-ready product or business model using various proven and new methods. It is designed as a one-year module in conjunction with the course Market-Oriented Product Development.
+
+The course structure includes further developing a product idea and business model, iterative work based on market observations, preparing presentations based on project results, formulating and evaluating alternative solutions, recognizing problems, devising countermeasures, and presenting before peers while engaging the audience.
+
+After completing the program, students will be able to recognize and define market-oriented problems related to the product idea, conduct analyses of development potentials based on market assessments, implement developments in multiple iterations with market feedback, and prepare and present the product idea and its development in a pitch. They will apply methods of market-oriented product development, use market research methods to gather market feedback, and reflect market insights in prototype development. They will build technically-functional prototypes, manage product development as a project, and develop and reflect prototypes in alternatives considering market reactions.
+
+The teaching and learning approach is based on guiding students through project tasks, structuring and solving questions using learned methods. Minor changes to the task during the project are part of goal-oriented work. The importance of schedules, action protocols, and steering meetings is experienced in practice. Theoretical models and concepts of product strategy are applied practically using the self-developed product idea. The professor is available for support and advice, with communication through personal meetings or email.
+
+Students should be able to independently apply principles of market-oriented product development after methodical introduction, choose appropriate methods, and use insights for market-oriented further development of their product idea. They should be familiar with methods like market surveys, the Delphi method, usability tests, or the hypothesis portfolio, and be able to prepare complex issues and motivate a target audience for the developed questions. They should have developed a product idea and a prototype that minimizes the risk of potential market introduction.
+
+Literature and course materials will include task descriptions and scripts. Performance is evaluated based on quality and completeness, market consideration, creativity, cooperation, and motivation. Grades range from very good (outstanding performance) to poor (unacceptable performance).
+
+The course schedule includes an introduction, task description, and development status, followed by methods of market-oriented product development, discussions on iterations of product development, customer/market feedback, development status, costs, preparation for product presentation, market entry strategy, setup, cost and revenue expectations, and feedback.
+
+Students should support presenters by actively participating in discussions, as discussion contributions are part of the evaluation. Presentation rounds are scheduled with the instructor, and changes in presentation dates are possible only by prior arrangement. Presentation materials should be submitted at least 3 working days before the presentation date. Students should follow safety instructions when handling machines in labs or during external assignments.
+
+The teaching philosophy emphasizes supporting students' learning progress and understanding the practical importance of the course content. Questions should be asked during class, and comments that contribute to the learning progress of all are welcome. The goal is for students to successfully complete the course, but they must earn it through their effort. The professor is available for support and advice through personal meetings or email.
+
+The course language is German/English. Students should be able to independently apply principles of market-oriented product development after methodical introduction, select suitable methods, and use insights for market-oriented further development of a product idea. They should be familiar with methods like market surveys, the Delphi method, usability tests, or conjoint analysis, and be able to prepare complex issues and motivate a target audience. Students should be able to compare their project work with case studies and benchmarks and derive evaluations of their own results. Finally, students should have developed a product idea and a prototype that can be introduced to the market.
+
+Neue Datei:
+Syllabus for BAE5031 Negotiation
+
+School of Engineering, Fakultät für Technik, Hochschule Pforzheim
+
+This master's level course on negotiation, taught by Prof. Dr. Moritz Peter, is worth 3 credits and includes 2 student contact hours per week, with a total workload of 90 hours. There are no prerequisites, but previous or simultaneous attendance of BAE 5142 “Strategic Procurement” is recommended. Course times, rooms, and dates are detailed in the LSF. Prof. Dr. Moritz Peter's office is in T2.3.12, with virtual office hours on Wednesday from 15:30-17:00. He can be reached by phone at (07231) 286671 or by email at moritz.peter@hs-pforzheim.de.
+
+Negotiations are an essential skill for managers, especially procurement managers, to achieve corporate and personal goals. This course focuses on negotiation skills in international supply chains. It is structured around an exemplary negotiation process within a sourcing context, encompassing the pre-bargaining, bargaining, and closing phases. 
+
+In the pre-bargaining phase, students will learn to identify their interests and those of the counterparty, assess alternatives and strengths/weaknesses, and set up a negotiation strategy with appropriate roles and tactics. The bargaining phase involves leading and defending negotiation meetings, documented by meeting minutes. In the closing and follow-up phase, students will learn to close or cancel deals smartly, supervise adherence to agreements, and react to violations, documented by contracts and correspondence.
+
+The course aims to develop students' ability to create negotiation strategies and apply fundamental tactics, negotiate in international contexts, address ethics and sustainability, incorporate human psychology in negotiations, identify success factors, and optimize corporate network processes for increased efficiency and value.
+
+The teaching approach includes lectures on negotiation topics, group assignments, and presentations with feedback. The course materials include lecture slides and additional downloads, with recommended readings from Fisher, Ury, and Patton (1991), Lewicki, Saunders, and Barry (2015), Raiffa, Richardson, and Metcalfe (2002), and Thompson (2009), among others.
+
+Assessment involves the presentation and documentation of final results, with individual contributions. The grading scale ranges from 1 (excellent) to 5 (insufficient).
+
+The schedule includes an introduction to negotiations, workshops, and presentations of final results. Students are expected to read the syllabus, practice fair play, prepare for lectures, be punctual, contribute to a pleasant atmosphere, solve exercises independently, and raise questions when needed.
+
+Prof. Dr. Moritz Peter emphasizes the importance of learning and is available for assistance. His objective is to prepare students for successful careers in procurement and logistics by fostering motivation, experience, and knowledge through practical and interactive topics. 
+
+After completing the course, students should have a deep understanding of the negotiation process in sourcing projects, be familiar with key strategies and tactics, and be able to prepare, conduct, and document negotiation meetings effectively. They should also be capable of improving negotiation outcomes under difficult circumstances and reacting to manipulation, conflicts, and threats while maintaining their objectives.
