@@ -13,9 +13,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.document_loaders import TextLoader
 from elevenlabs import play 
 from elevenlabs.client import ElevenLabs 
-from playsound import playsound
 
-#client = ElevenLabs(api_key="sk_69e05a40e930a3789e11351bcfb59d4405eff5547d8ef78d")
+#client = ElevenLabs(api_key="")
 
 
 load_dotenv()
