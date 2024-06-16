@@ -91,12 +91,13 @@ if "chat_history" not in st.session_state:
     
     # T2S
     audio=client.generate(
-        text="Hallo 1",
+        text="allo ich bin dein persönlicher KI-Studiengangsberater, wie kann ich dir helfen?",
         voice="ArneBanane",
         model="eleven_multilingual_v2",
         output_format="mp3_22050_32"
     )
     save(audio, "audio.mp3")
+    
     def autoplay_audio(file_path: str):
         with open(file_path, "rb") as f:
             data = f.read()
@@ -110,11 +111,8 @@ if "chat_history" not in st.session_state:
                 md,
                 unsafe_allow_html=True,
             )
-    st.write("# Auto-playing Audio!")
+            
     autoplay_audio("audio.mp3")
-
-    
-    #st.audio("audio.mp3", format = "audio/mp3")
     
 
 if "vector_store" not in st.session_state:
@@ -134,6 +132,7 @@ if user_query is not None and user_query != "":
         output_format="mp3_22050_32"
         )
     save(voice_response, "response.mp3")
+    
     def autoplay_audio(file_path: str):
         with open(file_path, "rb") as f:
             data = f.read()
@@ -147,11 +146,9 @@ if user_query is not None and user_query != "":
                 md,
                 unsafe_allow_html=True,
             )
-    st.write("# Auto-playing Audio!")
+            
     autoplay_audio("response.mp3")
-    
-    #st.audio("response.mp3", format = "audio/mp3")
-    
+        
 
     # conversation
 for message in st.session_state.chat_history:
