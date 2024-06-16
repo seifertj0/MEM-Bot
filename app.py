@@ -11,10 +11,11 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain 
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.document_loaders import TextLoader
-from elevenlabs import play 
+from elevenlabs import play, stream
 from elevenlabs.client import ElevenLabs 
+from playsound import playsound
 
-client = ElevenLabs(api_key="sk_69e05a40e930a3789e11351bcfb59d4405eff5547d8ef78d")
+client = ElevenLabs(api_key="sk_e2c9a969eb8688594bd1a6dd2f926381cad891828bf76168")
 
 
 load_dotenv()
@@ -25,7 +26,7 @@ def get_vectorstore_from_url(url):
     document = loader.load()
     
     # split the document into chunks
-    text_splitter = RecursiveCharacterTextSplitter()
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000000, chunk_overlap=10)
     document_chunks = text_splitter.split_documents(document)
     
     # create a vectorstore from the chunks
@@ -91,15 +92,16 @@ if "chat_history" not in st.session_state:
     
     # T2S
     audio=client.generate(
-          text="Hallo ich bin dein persönlicher KI-Studiengangsberater, wie kann ich dir helfen?",
-          voice="ArneBanane",
-          model="eleven_multilingual_v2"
+        text="Hallo ich bin dein persönlicher KI-Studiengangsberater, wie kann ich dir helfen?",
+        voice="ArneBanane",
+        model="eleven_multilingual_v2",
+        stream = True
     )
-    play(audio)
+    stream(audio)
     
 
 if "vector_store" not in st.session_state:
-    st.session_state.vector_store = get_vectorstore_from_url('Syllabi.txt')    
+    st.session_state.vector_store = get_vectorstore_from_url('txt/Syllabi.txt')    
 
     # user input
 user_query = st.chat_input("Stelle deine Fragen hier‍ 🎓")
@@ -109,13 +111,14 @@ if user_query is not None and user_query != "":
     st.session_state.chat_history.append(AIMessage(content=response))
     
     voice_response=client.generate(
-          text=response,
-          voice="ArneBanane",
-          model="eleven_multilingual_v2"
-    )
-    play(voice_response)
+        text=response,
+        voice="ArneBanane",
+        model="eleven_multilingual_v2",
+        stream = True
+        )
+    stream(voice_response)
     
-
+    
 
     # conversation
 for message in st.session_state.chat_history:
