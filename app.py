@@ -11,7 +11,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain 
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.document_loaders import TextLoader
-from elevenlabs import play, stream
+from elevenlabs import play, stream, save
 from elevenlabs.client import ElevenLabs 
 
 client = ElevenLabs(api_key="sk_e2c9a969eb8688594bd1a6dd2f926381cad891828bf76168")
@@ -96,7 +96,8 @@ if "chat_history" not in st.session_state:
         model="eleven_multilingual_v2",
         stream = True
     )
-    st.audio(stream(audio))
+    save(audio, "audio.mp3")
+    st.audio("audio.mp3", format = "audio/mp3", autoplay = True)    
     
 
 if "vector_store" not in st.session_state:
@@ -115,8 +116,8 @@ if user_query is not None and user_query != "":
         model="eleven_multilingual_v2",
         stream = True
         )
-    st.audio(stream(voice_response))
-    
+    save(voice_response, "response.mp3")
+    st.audio("response.mp3", format = "audio/mp3", autoplay = True)    
     
 
     # conversation
