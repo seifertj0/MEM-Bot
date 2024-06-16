@@ -1,5 +1,6 @@
 # pip install streamlit langchain langchain-openai beautifulsoup4 python-dotenv chromadb
 
+import pybase64
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_community.document_loaders import WebBaseLoader
@@ -16,7 +17,6 @@ from elevenlabs.client import ElevenLabs
 
 client = ElevenLabs(api_key="sk_e2c9a969eb8688594bd1a6dd2f926381cad891828bf76168")
 
-
 load_dotenv()
 
 def get_vectorstore_from_url(url):
@@ -25,7 +25,7 @@ def get_vectorstore_from_url(url):
     document = loader.load()
     
     # split the document into chunks
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000000, chunk_overlap=10)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000000)
     document_chunks = text_splitter.split_documents(document)
     
     # create a vectorstore from the chunks
@@ -97,7 +97,24 @@ if "chat_history" not in st.session_state:
         output_format="mp3_22050_32"
     )
     save(audio, "audio.mp3")
-    st.audio("audio.mp3", format = "audio/mp3")
+    def autoplay_audio(file_path: str):
+        with open(file_path, "rb") as f:
+            data = f.read()
+            b64 = pybase64.b64encode(data).decode()
+            md = f"""
+                <audio controls autoplay="true">
+                <source src="data:audio/mp3;base64,{b64}" type="audio/mp3">
+                </audio>
+                """
+            st.markdown(
+                md,
+                unsafe_allow_html=True,
+            )
+    st.write("# Auto-playing Audio!")
+    autoplay_audio("audio.mp3")
+
+    
+    #st.audio("audio.mp3", format = "audio/mp3")
     
 
 if "vector_store" not in st.session_state:
@@ -117,7 +134,23 @@ if user_query is not None and user_query != "":
         output_format="mp3_22050_32"
         )
     save(voice_response, "response.mp3")
-    st.audio("response.mp3", format = "audio/mp3")
+    def autoplay_audio(file_path: str):
+        with open(file_path, "rb") as f:
+            data = f.read()
+            b64 = pybase64.b64encode(data).decode()
+            md = f"""
+                <audio controls autoplay="true">
+                <source src="data:audio/mp3;base64,{b64}" type="audio/mp3">
+                </audio>
+                """
+            st.markdown(
+                md,
+                unsafe_allow_html=True,
+            )
+    st.write("# Auto-playing Audio!")
+    autoplay_audio("response.mp3")
+    
+    #st.audio("response.mp3", format = "audio/mp3")
     
 
     # conversation
