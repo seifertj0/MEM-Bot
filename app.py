@@ -79,8 +79,8 @@ st.title("MEM-Bot 📚")
 
 # sidebar
 with st.sidebar:
-        #st.logo("logo.svg")
-        #st.sidebar.image("logo.svg", width=100)
+        st.logo("logo.svg")
+        st.sidebar.image("logo.svg", width=100)
         st.header("Hochschule Pforzheim - Master Engineering and Management M. Sc.")
 
     # session state
@@ -91,13 +91,13 @@ if "chat_history" not in st.session_state:
     
     # T2S
     audio=client.generate(
-        text="Hallo ich bin dein persönlicher KI-Studiengangsberater, wie kann ich dir helfen?",
+        text="Hallo 1",
         voice="ArneBanane",
         model="eleven_multilingual_v2",
-        stream = True
+        output_format="mp3_22050_32"
     )
     save(audio, "audio.mp3")
-    st.audio("audio.mp3", format = "audio/mp3", autoplay = True)    
+    st.audio("audio.mp3", format = "audio/mp3", autoplay = True)
     
 
 if "vector_store" not in st.session_state:
@@ -114,10 +114,10 @@ if user_query is not None and user_query != "":
         text=response,
         voice="ArneBanane",
         model="eleven_multilingual_v2",
-        stream = True
+        output_format="mp3_22050_32"
         )
     save(voice_response, "response.mp3")
-    st.audio("response.mp3", format = "audio/mp3", autoplay = True)    
+    st.audio("response.mp3", format = "audio/mp3", autoplay = True)
     
 
     # conversation
