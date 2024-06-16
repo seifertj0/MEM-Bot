@@ -96,7 +96,7 @@ if "chat_history" not in st.session_state:
         model="eleven_multilingual_v2",
         stream = True
     )
-    stream(audio)
+    st.audio(stream(audio))
     
 
 if "vector_store" not in st.session_state:
@@ -115,7 +115,7 @@ if user_query is not None and user_query != "":
         model="eleven_multilingual_v2",
         stream = True
         )
-    stream(voice_response)
+    st.audio(stream(voice_response))
     
     
 
