@@ -97,7 +97,7 @@ if "chat_history" not in st.session_state:
         output_format="mp3_22050_32"
     )
     save(audio, "audio.mp3")
-    st.audio("audio.mp3", format = "audio/mp3", autoplay = True)
+    st.audio("audio.mp3", format = "audio/mp3")
     
 
 if "vector_store" not in st.session_state:
@@ -117,7 +117,7 @@ if user_query is not None and user_query != "":
         output_format="mp3_22050_32"
         )
     save(voice_response, "response.mp3")
-    st.audio("response.mp3", format = "audio/mp3", autoplay = True)
+    st.audio("response.mp3", format = "audio/mp3")
     
 
     # conversation
